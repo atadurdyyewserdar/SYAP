@@ -4,137 +4,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/header.css">
 </head>
 <body>
-    <header>
-        <div class="header__logo">
-            <p>WOODER</p>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__right">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <nav class="nav">
+                    <a href="#" class="nav__link">home</a>
+                    <a href="#" class="nav__link">products</a>
+                    <a href="#" class="nav__link">about</a>
+                </nav>
+            </div>
+            <div class="header__left">
+                <a href="#" class="info__ico">
+                    <img src="img/info44.png" alt="info">
+                </a>
+                <div class="language__switcher">
+                    <a href="#" class="current__lang">EN</a>
+                    <ul class=switcher__submenu>
+                        <li>
+                            <a href="#">RU</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <nav>
-            <div class="topnav">
-                <a href="#">HOME</a>
-                <a href="#">PRODUCTS</a>
-                <a href="#">ABOUT</a>
-            </div>
-        </nav>
     </header>
+    <section class="header__entry">
+        <div class="header__container">
+            <div class="entry__left">
+                <h1 class="entry__tittle">
+                    wooder
+                </h1>
+                <button class="entry__header-btn">
+                    learn more
+                    <img src="img/btn-arrow.png" alt="arrow">
+                </button>
+                <div class="entry__mouse-ico">
+                    <img src="img/mouse-ico.png" alt="mouse-ico">
+                </div>
+                <div class="entry__mouse-scroll-arrow">
+                    <img src="img/arrow-ico.png" alt="">
+                </div>
+                <div class="scroll-sign-wrapper">
+                    <div class="scroll-sign">
+                        scroll
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="entry_right">
+                <a href="#">
+                    <img src="img/share-ico.png" alt="share-ico">
+                </a>
+            </div>
+        </div>
+    </section>
 
-    <main>
-        <section class="main-entry">
-            <div class="main-entry__logo">
-                <h1>WOODER</h1>
-            </div>
-            <div class="main-entry__btn">
-                <h4>
-                    <a href="#">
-                        LEARN MORE
-                    </a>
-                </h4>
-            </div>
-        </section>
-        <section class="main-furniture">
-            <div class="furniture__about">
-                <div class="about__left">
-                    <div class="left-tittle">
-                        <h2>FURNITURE</h2>
-                    </div>
-                    <div class="left-subtittle">
+
+    <section class="features-section">
+       
+        <div class="section-wrapper">
+            <div class="feature__wrapper">
+                <div class="f-content">
+                    <h1 class="content-tittle">
+                        furniture    
+                    </h1>
+                    <p class="content-paragraph">
                         Wooder utilizes materials otherwise left behind, rendered useless in their original intent. By creating new pieces made of reclaimed barnwood
-                    </div>
-                    <div class="left-btn">
-                        <h4><a href="#">LEARN MORE</a></h4>
-                    </div>
-                </div>
-                <div class="about__right">
-                    <img src="assets/img/furniture.png" alt="furniture">
+                    </p>
+                    <button class="content-btn">
+                        learn more
+                    </button>
                 </div>
             </div>
-        </section>
-        <section class="main-decor">
-            <div class="decor__about">
-                <div class="about__left">
-                    <img src="assets/img/decor.png" alt="decor">
-                </div>
-                <div class="about-right">
-                    <div class="right-tittle">
-                        <h2>DECOR</h2>
-                    </div>
-                    <div class="right-subtittle">
+            <div class="feature__img">
+                <img src="img/furniture-1.png" alt="furniture">
+            </div>
+        </div>
+
+        <div class="section-wrapper s-wrapper-2">
+            <div class="feature-img">
+                <img src="img/decor-img.png" alt="decor">
+            </div>
+            <div class="feature__wrapper">
+                <div class="f-content f-content-2">
+                    <h1 class="content-tittle c-tittle-2">
+                        decor
+                    </h1>
+                    <p class="content-paragraph content-p2">
                         We make all types of wooden decor as per design given by Architect,Interior designer, contractor which is suitable
-                    </div>
-                    <div class="right-btn">
-                        <h4><a href="#">LEARN MORE</a></h4>
-                    </div>
+                    </p>
+                    <button class="content-btn btn-2">
+                        learn more
+                    </button>
                 </div>
             </div>
-        </section>
-        <section class="main-videos">
-            <div class="videos__about">
-                <div class="about-tittle">
-                    <h1>WOODER - IS QUALITY</h1>
-                </div>
-                <div class="about-subtittle">
+        </div>
+
+        <div class="thrd-part-section">
+            <div class="part-container">
+                <h1 class="p-container__tittle">
+                    wooder-is quality
+                </h1>
+                <p class="p-container__subtittle">
                     We create unique design objects made of rare wood, specially under the order. Look at the short video about our work.
-                </div>
-            </div>
-            <div class="videos__items">
-                <div class="video-item">
-                    <video src="#"></video>
-                    <div class="item-tittle">
-                        <h5>Innovative Design</h5>
+                </p>
+
+                <div class="video__items">
+                    
+                    <div class="video__item">
+                        <img src="img/rounded-img-1.png" alt="rounded-img-1">
+                        <a href="#" class="play-ico">
+                            <img src="img/play-ico.png" alt="">
+                        </a>
                     </div>
-                </div>
-                <div class="video-item">
-                    <video src="#"></video>
-                    <div class="item-tittle">
-                        <h5>High-level Skills</h5>
+                    
+                    <div class="video__item">
+                        <img src="img/rounded-img-2.png" alt="rounded-img-2">
+                        <a href="#" class="play-ico">
+                            <img src="img/play-ico.png" alt="">
+                        </a>
                     </div>
-                </div>
-                <div class="video-item">
-                    <video src="#"></video>
-                    <div class="item-tittle">
-                        <h5>Quality Products</h5>
+                    
+                    <div class="video__item">
+                        <img src="img/rounded-img-3.png" alt="rounded-img-3">
+                        <a href="#" class="play-ico">
+                            <img src="img/play-ico.png" alt="">
+                        </a>
                     </div>
+
                 </div>
+
             </div>
-        </section>
-        <section class="main-video">
-            <div class="video__about">
-                <div class="about-tittle">
-                    <h2>WE DO THE DESIGN OF ANY COMPLEXITY</h2>
-                </div>
-                <div class="about-subtittle">
-                    This is a team of professionals that make the furniture and wood décor high standard. Creating modern designs. Adhering to the global quality standards. And we are doing work with love.
-                </div>
-                <div class="about-btn">
-                    <h4><a href="#">WATCH VIDEO</a></h4>
-                </div>
-            </div>
-        </section>
-        <section class="main-about">
-            <div class="about__right">
-                <img src="assets/img/about-us.png" alt="about-us">
-            </div>
-            <div class="about__left">
-                <div class="left-tittle">
-                    <h2>ABOUT US</h2>
-                </div>
-                <div class="left-subtittle">
-                    We are a team of professionals in the wood processing and the creation of wooden furniture of the highest class
-                </div>
-                <div class="left-btn">
-                    <h4><a href="#">LEARN MORE</a></h4>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-menu">
-            <h6>2016 WOODER</h6>
-            <h6>WOODER</h6>
-            <h6>Designed by:</h6>
-            <h6>Atadurdyyev Serdar</h6>
+        </div>
+    </section>
+
+
+    <section class="video__section">
+        <div class="v-container">
+            <h1 class="v-tittle">
+                we do the design of any complexity
+            </h1>
+            <p class="v-paragraph">
+                This is a team of professionals that make the furniture and wood décor high standard. Creating modern designs. Adhering to the global quality standards. And we are doing work with love.
+            </p>
+            <button class="v-btn">
+                <img src="img/player.png" alt="">
+                watch video
+            </button>
+        </div>
+    </section>
+
+    <section class="about__section">
+        <div class="about__img">
+            <img src="img/mans.png" alt="mans">
+        </div>
+        <div class="about__content">
+            <h1 class="a-content__tittle">
+                about us
+            </h1>
+            <p class="a-content__paragraph">
+                We are a team of professionals in the wood processing and the creation of wooden furniture of the highest class
+            </p>
+            <button class="a-content__btn">
+                learn more
+            </button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="item-1">
+            2016 wooder
+        </div>
+        <div class="item-2">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="item-3">
+            Designed by Viacheslav Olianishyn
         </div>
     </footer>
+
 </body>
 </html>
