@@ -1,0 +1,30 @@
+.feature__item{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 10px;
+}
+
+
+.feature__btn-1{
+    background-color: transparent;
+}
+
+.feature__btn-2{
+    background-color: transparent;
+    
+}
+
+.features__section{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+.feature__items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+

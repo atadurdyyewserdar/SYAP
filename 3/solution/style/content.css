@@ -1,0 +1,119 @@
+.content__left{
+    position: relative;
+    display: block;
+}
+
+.content__tittle{
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: lighter;
+    color: #bea67c;
+    letter-spacing: 10px;
+}
+
+.content__btn{
+    background-color: transparent;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 22px 60px 22px 90px;
+    border: 2px solid #fff;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.content__tittle-1{
+    font-family: 'ProximaNovaBold';
+    font-size: 48px;
+    text-transform: uppercase;
+    height: 48px;
+}
+
+.content__paragraph-1{
+    width: 350px;
+    margin-right: 105px;
+    font-size: 15px;
+    color: #333;
+    font-family: 'ProximaNovaRegular';
+    width: 350px;
+    line-height: 25px;
+}
+
+
+.left__content-1{
+    padding-top: 10 px;
+}
+
+.content__paragraph-2{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 105px;
+    font-size: 15px;
+    color: #333;
+    font-family: 'ProximaNovaRegular';
+    width: 350px;
+    line-height: 25px;
+    text-align: right;    
+}
+
+.right__content-2{
+    position: relative;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+}   
+
+.content__tittle-2{
+    color: #000;
+    font-family: 'ProximaNovaBold';
+    font-size: 48px;
+    text-transform: uppercase;
+    height: 48px;
+    margin-left: 105px;
+    text-align: right;
+    margin-right: 0px;
+}
+
+
+.content__btn{
+    background-color: transparent;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 22px 60px 22px 90px;
+    border: 2px solid #fff;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.upper__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.content__tittle-3{
+    font-family: 'ProximaNovaBold';
+    color: #000;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.content__paragraph-3{
+    font-family: 'ProximaNovaRegular';
+    font-size: 15px;
+    color: #636262;
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto;
+}

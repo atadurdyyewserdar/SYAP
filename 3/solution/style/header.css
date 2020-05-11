@@ -1,0 +1,36 @@
+/* Header */
+.header{
+    position: absolute;
+    width: 100%;
+    font-family: 'ProximaNovaBold';
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0;
+    color: #858382;
+}
+
+.header__left{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__right{
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    
+}
+
+.header__content{
+    font-family: 'ProximaNovaBold';
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: url("../img/header-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}

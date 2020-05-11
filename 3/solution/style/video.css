@@ -1,0 +1,19 @@
+
+.video__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ .video__items{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.video__item{
+    margin: 10px 20px 10px 20px;
+    height: 300px;
+}
