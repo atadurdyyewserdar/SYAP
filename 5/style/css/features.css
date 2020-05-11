@@ -1,0 +1,59 @@
+.features {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.f-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content {
+  width: 300px;
+  display: block;
+}
+
+.content--btn {
+  border: 1px solid white;
+  background: none;
+  padding: 10px 30px;
+  padding-right: 60px;
+  text-decoration: none;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  border-color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tittle {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.c-2 {
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .background {
+    display: none;
+  }
+  .three-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=features.css.map */

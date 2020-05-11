@@ -1,0 +1,99 @@
+.videos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.videos-content {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.videos-content h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 15px auto;
+}
+
+.videos-content p {
+  text-align: center;
+  font-size: large;
+  width: 400px;
+}
+
+.three-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item {
+  margin: 0 50px;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.video-image {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .5;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.play-icon {
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding-bottom: 40px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*# sourceMappingURL=videos.css.map */
