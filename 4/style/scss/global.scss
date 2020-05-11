@@ -1,0 +1,33 @@
+$gold: #bea67c;
+$black: #333;
+$font-bold: 'ProximaNovaBold';
+$font-regular: 'ProximaNovaRegular'
+
+/* Global */
+body{
+    margin: 0;
+    font-family: ProximaNova-Regular, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+}
+
+*,
+*before,
+*after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+
+@font-face{
+    font-family: "ProximaNovaRegular";
+    src: url(../fonts/ProximaNova-Regular.ttf);
+}
+@font-face{
+    font-family: "ProximaNovaBold";
+    src: url(../fonts/ProximaNova-Bold.ttf);
+}
