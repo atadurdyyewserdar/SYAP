@@ -1,11 +1,12 @@
 /* No CSS *//*# sourceMappingURL=global.css.map */
 
 
+
 @font-face{
     font-family: "ProximaNovaRegular";
-    src: url(../fonts/ProximaNova-Regular.ttf);
+    src: url(../../fonts/ProximaNova-Regular.ttf);
   }
   @font-face{
     font-family: "ProximaNovaBold";
-    src: url(../fonts/ProximaNova-Bold.ttf);
+    src: url(../../fonts/ProximaNova-Bold.ttf);
   }
