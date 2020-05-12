@@ -10,12 +10,24 @@
     <link rel="stylesheet" href="style/css/video.css">
     <link rel="stylesheet" href="style/css/videos.css">
     <link rel="stylesheet" href="style/css/footer.css">
-    <link rel="stylesheet" href="style/css/header.css">
+    <!-- <link rel="stylesheet" href="style/css/header.css"> -->
+    <link rel="stylesheet" href="style/scss/header.css">
+    <link rel="stylesheet" href="style/scss/modal.css">
 </head>
-<body>
+<body class="no-scroll">
    
    
     <header class="header">
+        <div class="menu-btn">
+            <div class="menu-btn__burger">
+            </div>
+            <div class="burger__items">
+                <a href="#" class="burger-item">item-1</a>
+                <a href="#" class="burger-item">item-2</a>
+                <a href="#" class="burger-item">item-3</a>
+            </div>
+        </div>
+
         <div class="container">
             <nav class="nav__bar">
                 <div class="header__left">
@@ -36,16 +48,13 @@
                     </div>
                 </div>
             </nav>
-            <div class="burger-menu">
-                <img class="burger-ico" src="img/menu.png" alt="">
-            </div>
         </div>
     </header>
    
     <section class="header__content">
         <div class="container">
             <h1 class="content__tittle">wooder</h1>
-            <button class="content__btn">
+            <button class="content__btn btn1">
                 learn more
                 <img src="img/btn-arrow.png" alt="btn-arrow">
             </button>
@@ -74,7 +83,7 @@
                     <p class="paragraph">
                         Wooder utilizes materials otherwise left behind, rendered useless in their original intent. By creating new pieces made of reclaimed barnwood
                     </p>
-                    <button class="content--btn btn1">
+                    <button class="content--btn btn1" type="button">
                         learn more
                         <img src="img/btn-arrow.png" alt="">
                     </button>    
@@ -147,7 +156,7 @@
             <p class="content__parapgraph">
                 This is a team of professionals that make the furniture and wood decor high standard. Creating modern designs. Adhering to the global  quality standarts. And we are doing work with love.
             </p>
-            <button class="content__btn">
+            <button class="content__btn btn1">
                 <img src="img/play-ico.png" alt="" class="play-ico">
                 watch video
             </button>
@@ -181,5 +190,64 @@
 				<div class="footer__design">Designed by Viacheslav Olianyshin</div>
 			</div>
     </footer>
+
+    <!-- <div class="modal">
+        <div class="modal__window">
+            <div class="modal__content">
+                <h1 class="modal__content-tittle">
+                    Lorem ipsum dolor sit amet.
+                </h1>
+                <div class="modal__content-img">
+                    <img src="img/chillout-1.jpg" alt="" class="left-img">
+                    <img src="img/chillout-2.jpg" alt="" class="central-img">
+                    <img src="img/chillout-3.jpg" alt="" class="right-img">
+                </div>
+                <p class="modal__content-paragraph">
+                    Phasellus quis sem elementum, semper velit vitae, lobortis velit. Quisque feugiat vitae elit bibendum fermentum. Aliquam erat volutpat. Aliquam ut magna eu massa blandit bibendum eu vitae massa. 
+                </p>
+                <button class="modal__content-close">
+                    close
+                </button>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="modal activeM">
+        <div class="modal__dialog">
+            <button class="modal__close" type="button">
+                <img src="img/dialog-close.svg" alt="Close">
+            </button>
+            <div class="modal-work">    
+                <div class="modal-work__preview">
+                    <img src="https://placehold.it/780x780" alt="" class="modal-work__photo">
+                </div>
+                <div class="modal-work__content">
+                    <div class="modal-work__header">
+                        <h3 class="modal-work__tittle">
+                            project tittle
+                        </h3>
+                        <div class="modal-work__info">
+                            category | 2020
+                        </div>
+                    </div>
+
+                    <div class="modal-work__client">
+                        <div class="modal-work__client-tittle">Client</div>
+                        <div class="modal-work__client-company">Creative agency</div>
+                    </div>
+
+                    <div class="modal-work__text">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt accusantium necessitatibus recusandae inventore cupiditate, eveniet illo cum rerum nobis. Totam amet sunt unde dignissimos officiis numquam sed pariatur similique quidem!</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sequi animi cumque repellendus! Cum, numquam! Est animi, illo molestiae molestias accusantium doloremque temporibus, impedit totam minima iure nostrum eum necessitatibus.</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolorum magni. Inventore officia nesciunt aut adipisci veritatis, sapiente sit possimus accusantium, voluptas sunt magnam omnis velit nisi dicta nemo voluptate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

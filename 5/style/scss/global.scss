@@ -1,5 +1,10 @@
 $gold: #bea67c;
 $black: #333;
 $font-bold: 'ProximaNovaBold';
-$font-regular: 'ProximaNovaRegular'
+$font-regular: 'ProximaNovaRegular';
 
+body{
+    &.no-scroll{
+        overflow: hidden;
+    }
+}

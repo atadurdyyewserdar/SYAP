@@ -18,19 +18,6 @@
     align-items: center;
 }
 
-.burger-menu{
-    width: 30px;
-    height: 30px;
-    display: none;
-}
-
-.burger-ico{
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-
 .mouse__ico{
     padding-bottom: 10px;
 }
@@ -113,6 +100,105 @@
     cursor: pointer;
     text-align: center;
     margin-bottom: 40px;
+}
+
+.menu-btn{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger {
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+    z-index: 1000000;
+    &:before,
+    &:after{
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background: #fff;
+        border-radius: 1px;
+        box-shadow: 0 2px 5px rgba(255,101,47,.2);
+        transition: all .5s ease-in-out;
+    }
+    
+    &:before {
+        transform: translateY(-6px);
+    }
+    &:after {
+        transform: translateY(6px);
+    }
+}
+
+
+.menu-btn.open .menu-btn__burger {
+    position: fixed;
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+    &::before{
+        transform: rotate(45deg) translate(35px, -35px);
+    }
+
+    &::after{
+        transform: rotate(-45deg) translate(35px, 35px);
+    }
+}
+
+
+.burger__items{
+    width: 200px;
+    top: 10px;
+    z-index: 20;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    
+    border-color: white;
+    overflow-y: auto;
+    left: -100%;
+    background-color: #3b3a3a;
+    padding-top: 60px;
+    padding-bottom: 50px;;
+    transition: 0.2s;
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: 'ProximaNovaRegular';
+        color: #fff;
+        border: .5px solid white;
+        border-right: none;
+        border-left: none;
+    }    
+}
+
+.burger__items.active{
+    left: 10px;
+    background-color: rgba(0,0,0,1);
+}
+
+
+.burger__item{
+    
+    &:hover{
+        filter: brightness(0.7);
+    }
 }
 
 @media only screen and (max-width: 768px){
